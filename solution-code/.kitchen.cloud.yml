@@ -1,6 +1,6 @@
 driver:
   name: ec2
-  region: eu-west-1
+  region: eu-west-2
   require_chef_omnibus: true
   instance_type: t2.micro
   # This is the subnet id for DevOpsStudents
@@ -10,7 +10,7 @@ driver:
   associate_public_ip: true
 
   # transport:
-  # # Use our key from machine to access the test machine
+  # # Use our key from machines to access the test machine
   # ssh_key: ~/.ssh/DevOpsStudents.pem
 
   verifier: name: inspec
