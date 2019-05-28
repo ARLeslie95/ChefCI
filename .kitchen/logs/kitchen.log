@@ -1,0 +1,29 @@
+I, [2019-05-28T15:29:06.240995 #87371]  INFO -- Kitchen: -----> Starting Kitchen (v1.24.0)
+E, [2019-05-28T15:29:06.242776 #87371] ERROR -- Kitchen: ------Exception-------
+E, [2019-05-28T15:29:06.242848 #87371] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2019-05-28T15:29:06.242880 #87371] ERROR -- Kitchen: Message: Kitchen YAML file /Users/tech-a34/Documents/Engineering29/DevOps/week10/ChefCI/.kitchen.cloud.yml does not exist.
+E, [2019-05-28T15:29:06.242910 #87371] ERROR -- Kitchen: ----------------------
+E, [2019-05-28T15:29:06.242937 #87371] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-05-28T15:29:06.242963 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2019-05-28T15:29:06.242989 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:152:in `data'
+E, [2019-05-28T15:29:06.243015 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:131:in `suites'
+E, [2019-05-28T15:29:06.243041 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2019-05-28T15:29:06.243067 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2019-05-28T15:29:06.243093 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:117:in `instances'
+E, [2019-05-28T15:29:06.243118 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2019-05-28T15:29:06.243144 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2019-05-28T15:29:06.243170 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command/test.rb:40:in `block in call'
+E, [2019-05-28T15:29:06.243196 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-05-28T15:29:06.243222 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command/test.rb:38:in `call'
+E, [2019-05-28T15:29:06.243248 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2019-05-28T15:29:06.243274 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:245:in `test'
+E, [2019-05-28T15:29:06.243300 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2019-05-28T15:29:06.243326 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2019-05-28T15:29:06.243351 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2019-05-28T15:29:06.243377 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2019-05-28T15:29:06.243411 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2019-05-28T15:29:06.243435 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2019-05-28T15:29:06.243459 #87371] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `<top (required)>'
+E, [2019-05-28T15:29:06.243484 #87371] ERROR -- Kitchen: /usr/local/bin/kitchen:306:in `load'
+E, [2019-05-28T15:29:06.243507 #87371] ERROR -- Kitchen: /usr/local/bin/kitchen:306:in `<main>'
+E, [2019-05-28T15:29:06.243530 #87371] ERROR -- Kitchen: ----End Backtrace-----
